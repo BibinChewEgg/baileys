@@ -139,9 +139,14 @@ await client.relayMessage(m.chat, {
 ```
 ## Thanks For Support
 ```javascript
-const kayzen == "my self"
-const Gupong == "source my fork"
-const kiur == "source baileys ( maybe )"
+const thanksFor = async () => {
+  const credit = new Map([
+    ["kayzen", "Null"],
+    ["yuukey", "Source baileys Fork"]
+  ]);
+
+  return Object.fromEntries(credit);
+};
 ```
 
 
